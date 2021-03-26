@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "HelloWorld",
+    "slug": "oauth",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oauth.com",
+      "publishBundlePath": "ios/helloworld/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/helloworld/Supporting/shell-app-manifest.json"
+    },
+    "sdkVersion": "37.0.0",
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.15.1-sdk37.0.0-adf360bf-dc0e-4cd0-9141-21fb3374a54f.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.15.0-sdk37.0.0-25317bc5-e70a-4ffb-b59f-8e2b6fcdd8ce.tar.gz"
+    },
+    "android": {
+      "package": "com.oauth.com",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}
